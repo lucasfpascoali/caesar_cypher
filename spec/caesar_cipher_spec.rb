@@ -3,7 +3,6 @@
 # spec/caesar_cypher_spec.rb
 require './lib/caesar_cipher'
 
-# rubocop:disable Metrics/BlockLength
 describe CaesarCipher do
   let(:caesar_cypher) { CaesarCipher.new }
 
@@ -33,4 +32,3 @@ describe CaesarCipher do
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
